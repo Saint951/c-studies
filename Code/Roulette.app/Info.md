@@ -1,14 +1,37 @@
 # Roulette.c
-## A quoi sert ce code? 
 
-Roulette.c permet de créer une "roulette", l'utilisateur se verra demander d'entrer un pari (faux crédits!!!) et également un chiffre sur lequel parier de 0-51, ensuite le code code va se reposer sur un générateur de chiffres pseudo aléatoire.
+Un simple jeu de roulette conçue pour explorer la gestion de mémoire et l'aléatoire en C.
 
-## Comment s'en servir?
+## Description
 
-> Obtenir "Roulette.c"
+Ce programme simule une table de roulette où l'utilisateur parie des **crédits virtuels** sur des nombres allant de 0 à 51.
 
-> Dans le terminal: 
-> clang Roulette.c
-> ls -la pour voir le binary (normalement a.out)
-> ./a.out
+>[!IMPORTANT]
+>Ce projet est purement éducatif.
+
+## Utilisation
+
+### Compilation
+
+On utilise `clang` avec des flags de sécurité pour s'assurer que le code est propre :
+
+```bash
+clang -Wall -Wextra -o roulette Roulette.c
+\```
+
+### Execution
+
+```bash
+./roulette
+\```
+
+## Détails Techniques
+
+- **Aléatoire:** Utilise `srand(time(NULL))` pour la seed du Pseudo Random Number Generator.
+- **Performance:** Temps d'exécution réduit par rapport à l'interpréteur Python.
+- **Types:** Utilise des types de données stricts pour optimiser l'empreinte mémoire.
+
+---
+*Fait avec Love sous Arch linux via nvim. <3
+
 
