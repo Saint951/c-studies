@@ -17,13 +17,13 @@ On utilise `clang` avec des flags de sécurité pour s'assurer que le code est p
 
 ```bash
 clang -Wall -Wextra -o roulette Roulette.c
-\```
+```
 
 ### Execution
 
 ```bash
 ./roulette
-\```
+```
 
 ## Détails Techniques
 
