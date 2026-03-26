@@ -71,12 +71,12 @@ while (x > 0) {
 
 ## Python
 
-def jordan_gay(a,b):
+def FonctionCool(a,b):
 	return a + b
 
 ## C
 
-int add_nums(int a, int b) {
+int AddNums(int a, int b) {
 	return a + b;
 }
 
