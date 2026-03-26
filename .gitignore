@@ -1,0 +1,22 @@
+# C Build Artifacts
+# Bin Compilé
+Roulette
+a.out
+*.out
+*.exe
+
+# Fichiers Objets et librairies
+*.o
+*.so
+*.a
+
+# Trash de l'editeur et du sys
+#Nvim swap et backup
+*.swp
+*.swo
+.netrwhist
+undo/
+
+#sys
+.DS_Store
+Thumbs.db
