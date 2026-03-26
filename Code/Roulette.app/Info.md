@@ -8,7 +8,7 @@ Roulette.c permet de créer une "roulette", l'utilisateur se verra demander d'en
 > Obtenir "Roulette.c"
 
 > Dans le terminal: 
-    clang Roulette.c
-    ls -la pour voir le binary (normalement a.out)
-    ./a.out
+> clang Roulette.c
+> ls -la pour voir le binary (normalement a.out)
+> ./a.out
 
